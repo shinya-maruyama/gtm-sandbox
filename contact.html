@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="GTM Sandboxサイトです">
+  <title>お問い合わせ | GTM Sandbox</title>
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <script src="js/jquery1.4.4.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+  <header id="header" role="banner">
+    <div class="inner">
+      <h1 class="logo">
+        <a href="index.html" rel="home">GTM Sandbox<br /><span>testing GTM</span></a>
+      </h1>
+      <nav id="mainNav">
+        <div class="inner">
+          <a class="menu" id="menu"><span>MENU</span></a>
+          <div class="panel">
+            <ul id="topnav">
+              <li><a href="contact.html"><strong>お問い合わせ</strong><br /><span>Contact</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="wrapper">
+    <section id="main">
+      <div class="Form">
+        <h2 class="h2">お問い合わせ</h2>
+        <form action="/thanks.html" method="get">
+          <div class="Form-Item">
+            <p class="Form-Item-Label">
+              <span class="Form-Item-Label-Required">必須</span>会社名
+            </p>
+            <input type="text" class="Form-Item-Input" placeholder="例）株式会社令和">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+            <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+            <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+            <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+          </div>
+          <div class="Form-Item">
+            <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+            <textarea class="Form-Item-Textarea"></textarea>
+          </div>
+          <input type="submit" class="Form-Btn" value="送信する">
+      </form>
+      </div>
+    </section>
+  </div>
+
+  <footer id="footer">
+    <div class="inner">
+      <section class="gridWrapper">
+        <article class="grid">
+          <p class="logo"><a href="index.html" rel="home">GTM Sandbox<br /><span>testing GTM</span></a></p>
+        </article>
+        <article class="grid">
+          <p class="tel"><span>電話:</span> <strong>012-3456-7890</strong></p>
+          <p class="open">受付時間: 平日 AM 10:00 〜 PM 5:00</p>
+        </article>
+        <article class="grid copyright">
+          Copyright(c) GTM Sandbox All Rights Reserved.
+        </article>
+      </section>
+    </div>
+  </footer>
+
+</body>
+</html>
