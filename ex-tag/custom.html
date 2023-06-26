@@ -14,7 +14,7 @@ window.exTag = window.exTag || {
     }
   },
   track: function(name) {
-    if (Cookies.set("exampleTag")) {
+    if (Cookies.get("exampleTag")) {
       console.log('[実際には広告タグのサーバーへ送信]: example広告からの流入後、CVしました！: ', name)
     }
   },
